@@ -1,0 +1,106 @@
+ #palette/palette.css
+.palette {
+margin:200px 400px 200px 400px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 8px solid #000000;
+    background-color: #000000;
+    padding: 10px;
+    gap: 8px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15), 0 0 0 10px #FFDDE2;
+    align-items: flex-start;
+    margin: 50px auto;
+    min-height: auto;
+    height: auto;
+    max-width: 620px; 
+    justify-content: center; 
+}
+
+.box {
+    width: 100px; 
+    height: 100px; 
+
+    flex: 0 0 auto; 
+    max-height: none; 
+    max-width: none;
+    
+    border-radius: 5px; 
+    padding: 5px;
+    border: 1px solid #D4AFB9;
+    margin: 0;
+    background-color: transparent;
+    text-align: center;
+    color: #4A4A4A;
+    font-family: 'Georgia', serif;
+    font-size: 0.8em;
+    font-weight: normal;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 105, 180, 0.5), inset 0 2px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.item1 {
+    background: linear-gradient(145deg, #FFC0CB, #E0AAB6);
+    color: #4A4A4A;
+    border-radius: 5px; 
+}
+
+.item2 {
+    background: linear-gradient(145deg, #FADADD, #E4C8CB);
+    color: #4A4A4A;
+}
+
+.item3 {
+    background: linear-gradient(145deg, #FD79A8, #D85686);
+    color: white;
+}
+
+.item4 {
+    background: linear-gradient(145deg, #FFD1DC, #E0BFC8);
+    color: #4A4A4A;
+}
+
+.item5 {
+    background: linear-gradient(145deg, #F5DCE0, #DCC8CC);
+    color: #4A4A4A;
+}
+
+.item6 {
+    background: linear-gradient(145deg, #FFB7C5, #E0A0AE);
+    color: white;
+    border-radius: 5px; 
+}
+
+.item7 {
+    background: linear-gradient(145deg, #FFECEF, #E0D4D7);
+    color: #4A4A4A;
+}
+
+.item8 {
+    background: linear-gradient(145deg, #E68FAC, #C87B97);
+    color: white;
+    border-radius: 5px;
+}
+
+.item9 {
+    background: linear-gradient(145deg, #F4C2C2, #FFB6C1);
+    color: white;
+    border-radius: 5px;
+}
+
+.item10 {
+    background: linear-gradient(145deg, #F2BED1, #D8A9BA);
+    color: #4A4A4A;
+    border-radius: 5px;
+}
