@@ -6,14 +6,14 @@ body {
 }
 
 .best-selling-items {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
 h1 {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bold;
     margin-bottom: 30px;
     color: #333;
@@ -29,13 +29,48 @@ h1 {
     .products-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .product-card {
+        padding: 15px;
+    }
 }
 
 @media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+
     .products-grid {
         grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .product-info h2 {
+        font-size: 1em;
+        min-height: auto;
+    }
+
+    .product-info p {
+        font-size: 0.8em;
+        min-height: auto;
+    }
+
+    .price {
+        font-size: 1.2em;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 14px;
+        max-width: none;
     }
 }
+
 
 .product-card {
     background-color: #ffffff;
@@ -113,5 +148,4 @@ button {
 
 button:hover {
     background-color: #00C3C2;
-
 }
